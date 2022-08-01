@@ -1,0 +1,20 @@
+@import "./normalize.scss";
+@import "./Top.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.link:hover {
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+}
